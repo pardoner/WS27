@@ -5,19 +5,6 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -40,3 +27,19 @@
 .read-the-docs {
   color: #888;
 }
+
+* {background-color: pink;}
+
+h2 {color: purple;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label {color: rgb(142, 19, 93);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px}
+
+input {background-color: rgb(229, 204, 240);}
+
+.button {background-color: rgb(231, 225, 232);
+color: rgb(153, 17, 153);
+border: 1px solid rgb(60, 3, 57)}
